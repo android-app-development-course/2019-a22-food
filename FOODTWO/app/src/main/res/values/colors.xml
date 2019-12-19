@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f4436d</color>
+
+<!--    #CB9C27B0-->
+<!--    <color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimaryDark">#f4436d</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Purple">#CB9C27B0</color>
+    <color name="White">#ffffff</color>
+    <color name="forbid">#B0C4DE</color>
+    <color name="button">#f4436d</color>
+    <color name="theme_red">#ff1493</color>
+    <color name="exit">#f5d4d7</color>
+
+    <color name="tabbar_text_color">#999999</color>
+    <color name="tabbar_text_color_checked">#5EDDCA</color>
+    <color name="common_line_color">#eaeaea</color>
+</resources>

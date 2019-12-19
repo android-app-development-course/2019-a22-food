@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    app:layout_scrollFlags="scroll|enterAlways"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="吃什么"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+
+        />
+<!--    <Button-->
+<!--        android:id="@+id/jiahao"-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_gravity="right"-->
+<!--        android:background="@drawable/jiahao"-->
+<!--        />-->
+
+
+
+</android.support.v7.widget.Toolbar>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+
+        <!--        <FrameLayout-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content">-->
+
+
+        <!--            <View-->
+        <!--                android:layout_width="70dp"-->
+        <!--                android:layout_height="70dp"-->
+        <!--                android:background="@drawable/yuanjiao" />-->
+
+        <com.github.siyamed.shapeimageview.CircularImageView
+            android:id="@+id/touxiang"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/toouxiang"
+            app:siBorderColor="#ffffff"
+            app:siBorderWidth="2dp" />
+
+
+        <!--            <ImageView-->
+        <!--                android:id="@+id/touxiang"-->
+        <!--                android:layout_width="70dp"-->
+        <!--                android:layout_height="70dp"-->
+        <!--                android:src="@mipmap/zhuzhu" />-->
+
+
+        <!--        </FrameLayout>-->
+
+        <TextView
+            android:id="@+id/yonghuming"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center|left"
+            android:paddingStart="10dp"
+            android:textColor="#F12B2B"
+            android:text="Bob"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/time"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            android:gravity="end"-->
+<!--            android:text="Time"-->
+<!--            android:textSize="12sp"-->
+<!--            android:layout_marginLeft="100dp"-->
+<!--           />-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.loopj.android.image.SmartImageView
+            android:id="@+id/neirong"
+            android:layout_width="match_parent"
+            android:src="@drawable/jiazaia"
+            android:layout_height="330dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/wenzineirong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="打卡"
+            android:paddingLeft="20dp"
+            android:textSize="14sp"
+            android:textColor="#000000"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/common_line_color"
+        />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="150dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/button"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textColor="#303E8B"
+            android:text="#标签" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/ic_heart_outline_grey"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/common_line_color"
+      />
+
+</LinearLayout>

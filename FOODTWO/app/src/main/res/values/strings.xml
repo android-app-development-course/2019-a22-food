@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FOODTWO</string>>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    <style name="CollapsingTheme"parent="AppTheme">-->
+    <!--        <item name="android:statusBarColor">@android:color/transparent</item>-->
+    <!--        <item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+    <!--    </style>-->
+
+
+    <string name="account_hint">请输入邮箱</string>
+    <string name="pwd_hint">请输入密码</string>
+    <string name="log_in">登 录</string>
+    <string name="exit">退 出</string>
+    <string name="food_n">Food</string>
+    <string name="title_activity_send">Send</string>
+
+</resources>
